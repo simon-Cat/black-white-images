@@ -1,0 +1,20 @@
+@keyframes show-header-box-1 {
+  0% {
+    top: 150px;
+    z-index: 0;
+  }
+
+  50% {
+    top: 75px;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+.header__title_number_one {
+  position: absolute;
+  top: 150px;
+  animation: show-header-box-1 0.3s 1s linear forwards;
+}

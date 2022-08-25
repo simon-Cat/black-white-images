@@ -1,0 +1,11 @@
+@keyframes draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.header__svg-polyline {
+  stroke-dasharray: 990;
+  stroke-dashoffset: 990;
+  animation: draw 3.3s 1.5s linear forwards;
+}
