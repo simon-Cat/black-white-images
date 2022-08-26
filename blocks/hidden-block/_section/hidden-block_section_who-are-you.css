@@ -1,0 +1,11 @@
+@keyframes who-are-you-hidden-block {
+  100% {
+    width: 0;
+  }
+}
+
+.hidden-block_section_who-are-you {
+  width: 400px;
+  height: 200px;
+  animation: who-are-you-hidden-block .7s 1s cubic-bezier(0.32, 0, 0, 0.99) forwards;
+}

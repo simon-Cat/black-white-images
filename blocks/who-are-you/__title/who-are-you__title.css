@@ -1,0 +1,11 @@
+.who-are-you__title {
+    font-size: 80px;
+    min-width: 150px;
+    text-align: center;
+    margin: 0;
+}
+
+.who-are-you__title:last-of-type {
+    position: relative;
+    top: 75px;
+}

@@ -1,0 +1,6 @@
+.who-are-you__titles {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 100px;
+}

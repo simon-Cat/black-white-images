@@ -8,5 +8,5 @@
   position: absolute;
   top: 390px;
   left: -766px;
-  animation: show-header-box-3 3s 1.5s linear forwards;
+  animation: show-header-box-3 3s 1.5s cubic-bezier(0.32, 0, 0, 0.99) forwards;
 }

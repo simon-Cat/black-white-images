@@ -1,16 +1,5 @@
-@keyframes hide-hidden-block {
-  100% {
-    top: 415px;
-    visibility: hidden;
-  }
-}
-
 .hidden-block {
-  width: 700px;
-  height: 230px;
   background-color: white;
   position: absolute;
-  top: 185px;
   z-index: 1;
-  animation: hide-hidden-block 0.4s 1s ease-out forwards;
 }
