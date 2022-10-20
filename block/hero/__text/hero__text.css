@@ -1,0 +1,18 @@
+.hero__text {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 140px;
+  margin: 0;
+  animation: changeColor 5s linear alternate infinite;
+}
+
+@keyframes changeColor {
+  from {
+    color: #323232;
+  }
+  to {
+    color: #fff;
+  }
+}

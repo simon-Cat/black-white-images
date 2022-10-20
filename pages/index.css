@@ -1,36 +1,17 @@
 /* normalize.css */
 @import url(../vendor/normalize.css);
 
+/* fonts */
+@import url(../vendor/fonts.css);
+
 /* page */
-@import url(../blocks/page/page.css);
+@import url(../block/page/page.css);
 
-/* hidden-block */
-@import url(../blocks/hidden-block/hidden-block.css);
-@import url(../blocks/hidden-block/_section/hidden-block_section_header.css);
-@import url(../blocks/hidden-block/_section/hidden-block_section_who-are-you.css);
+/* hero */
+@import url(../block/hero/hero.css);
+@import url(../block/hero/__title/hero__title.css);
+@import url(../block/hero/__text/hero__text.css);
 
-/* header */
-@import url(../blocks/header/header.css);
-@import url(../blocks/header/__titles/header__titles.css);
-@import url(../blocks/header/__title/header__title.css);
-@import url(../blocks/header/__title/_number/header__title_number_one.css);
-@import url(../blocks/header/__title/_number/header__title_number_three.css);
-@import url(../blocks/header/__title/_number/header__title_number_two.css);
-@import url(../blocks/header/__svg/header__svg.css);
-@import url(../blocks/header/__svg-polyline/header__svg-polyline.css);
-
-/* content */
-
-/* who-are-you*/
-@import url(../blocks/who-are-you/who-are-you.css);
-@import url(../blocks/who-are-you/__titles/who-are-you__titles.css);
-@import url(../blocks/who-are-you/__title/who-are-you__title.css);
-@import url(../blocks/who-are-you/__title/_theme/who-are-you__title_theme_dark.css);
-@import url(../blocks/who-are-you/__title/_theme/who-are-you__title_theme_white.css);
-
-/* cards */
-@import url(../blocks/cards/cards.css);
-@import url(../blocks/cards/__card/cards__card.css);
-@import url(../blocks/cards/__title/cards__title.css);
-@import url(../blocks/cards/__block-img/cards__block-img.css);
-@import url(../blocks/cards/__img/cards__img.css);
+/* circle */
+@import url(../block/circle/circle.css);
+@import url(../block/circle/_active/_active.css);

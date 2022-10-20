@@ -1,17 +1,5 @@
 @font-face {
-    src: url(CormorantInfant-Light.ttf) format("ttf");
-    font-family:'Cormorant Infant';
-    font-weight: 300;
-}
-
-@font-face {
-    src: url(CormorantInfant-Regular.ttf) format("ttf");
-    font-family:'Cormorant Infant';
-    font-weight: 400;
-}
-
-@font-face {
-    src: url(CormorantInfant-Medium.ttf) format("ttf");
-    font-family:'Cormorant Infant';
-    font-weight: 500;
+  font-family: 'Comfortaa';
+  src: url(fonts/Comfortaa-Medium.woff) format('woff'),
+    url(fonts/Comfortaa-Medium.woff2) format('woff2');
 }
